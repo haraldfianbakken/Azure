@@ -40,7 +40,6 @@ $ServicePrincipalConnection = Get-AutomationConnection -Name $AzureRunAsAccountN
 if(!$ServicePrincipalConnection) {
     throw "No SPC - Connection $AzureConnectionAssetName not found."
 }
-Write-Output "Logging in to Azure..."
 
 [void](Add-AzureRmAccount -ServicePrincipal -TenantId $ServicePrincipalConnection.TenantId -ApplicationId $ServicePrincipalConnection.ApplicationId -CertificateThumbprint $ServicePrincipalConnection.CertificateThumbprint)
 
