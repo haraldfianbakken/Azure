@@ -48,7 +48,7 @@ $vms = Get-AzureRmVM;
 
 $VirtualMachines|Foreach-object {
     $name = $_;
-    $result = $vm = $vms|Where-Object{ $_.Name -eq $name}|Stop-AzureRmVM -ErrorAction Continue;
+    $result = $vms|Where-Object{ $_.Name -eq $name}|Stop-AzureRmVM -ErrorAction Continue;
     	
 	if (!$result.IsSuccessStatusCode) {
         Write-Output $_.Name + " failed to stop VM"

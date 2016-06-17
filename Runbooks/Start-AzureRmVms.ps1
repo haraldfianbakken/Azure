@@ -49,7 +49,7 @@ $vms = Get-AzureRmVM;
 
 $VirtualMachines|Foreach-object {
     $name = $_;
-    $result = $vm = $vms|Where-Object{ $_.Name -eq $name}|Start-AzureRmVM -ErrorAction Continue;
+    $result = $vms|Where-Object{ $_.Name -eq $name}|Start-AzureRmVM -ErrorAction Continue;
     	
 	if (!$result.IsSuccessStatusCode) {
         Write-Output $_.Name + " failed to start VM"
