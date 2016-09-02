@@ -7,7 +7,7 @@ Feel free to add more and add a pull request when you see URL's and services mis
 
 ## Azure services and urls
 
-Site    | Description | Ip addresses
+URL    | Description | Ip addresses
 --------|-------------|------------------
 *.windowsazure.com  |   Allow for all services running under the windowsazure domain. |
 *.remoteapp.windowsazure.com | Azure Remote App |
@@ -38,7 +38,7 @@ login.windows.net   | Login for various |
 
 ## Office 365 and other apps
 
-Site    | Description
+URL    | Description
 --------|------------
 app.powerbi.com | Office 365 apps
 outlook.office365.com | Office 365 apps
