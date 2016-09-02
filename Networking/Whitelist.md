@@ -5,7 +5,7 @@ Useful for opening firewalls and allowing proxy bypasses. Feel free to add more 
 ## Azure services and urls
 
 Site    | Description
-
+--------|------------
 *.windowsazure.com  |   Generic, all subservices
 *.remoteapp.windwsazure.com | Remoteapp
 
@@ -30,6 +30,7 @@ login.windows.net   | Login for various
 ## Office 365 and other apps
 
 Site    | Description
+--------|------------
 app.powerbi.com | Office 365 apps
 outlook.office365.com | Office 365 apps
 yammer.com  | Yammer
