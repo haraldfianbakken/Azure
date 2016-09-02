@@ -1,39 +1,39 @@
 # On-Prem / Azure hybrid solutions - Url whitelisting and overview
 
 On-prem solutions and hybrid solutions working together with Azure can be a hazzle, especially if you don't have control over the network or configurations in place. 
-In order to make network configurations easier / and allow for easier overview for what to configure I'm gathering a set of urls here that can be used to configuring firewalls / bypass local proxies. 
+In order to make it easier to configure and make your On-Prem work well together with Azure it's helpfult to know what to allow in your firewall rules or bypass in your proxies. I'm gathering here a set of urls here that can be used for such configuration. 
 
 Feel free to add more and add a pull request when you see URL's and services missing.
 
 ## Azure services and urls
 
-Site    | Description
---------|------------
-*.windowsazure.com  |   Allow for all services running under the windowsazure domain. 
-*.remoteapp.windowsazure.com | Azure Remote App
-marketplace.windowsazure.com | Azure marketplace
-status.windowsazure.com | Status and health 
-*.azure.com | Generic - Allow all services for *.azure.com
-*.cloudapp.azure.com    | Cloud apps
-portal.azure.com  | Azure portal
-datamarket.azure.com | Data market
-resources.azure.com | Resource explorer
-ods.opinsights.azure.com | Operation insights, monitoring agent, log analytics
-*.core.windows.net | (generic storage access; would include: queues, blobs, tables, files)
-*.blob.core.windows.net | Specific for blob storage
-*.table.core.windows.net    | Specific for table storage
-*.queue.core.windows.net    | Specific for queues (storage)
-*.servicebus.windows.net    | Servicebus - Needed for e.g. RemoteApp
-*.servicebus.net    | ServiceBus - needed for RemoteApp
-*.cloudapp.net  | Cloud services
-*.azurewebsites.net | Web sites
-*.azure-api.net    | API management
-*.database.windows.net  | SQL 
-*.trafficmanager.net    | Traffic manager
-*.azure-automation.net  | Azure automation - If using DSC pull configuration with on-prem, whitelist this
-ods.systemcenteradvisor.com | Log anlytics
-login.microsoftonline.com   | Login for Azure AD / various applications
-login.windows.net   | Login for various 
+Site    | Description | Ip addresses
+--------|-------------|------------------
+*.windowsazure.com  |   Allow for all services running under the windowsazure domain. |
+*.remoteapp.windowsazure.com | Azure Remote App |
+marketplace.windowsazure.com | Azure marketplace |
+status.windowsazure.com | Status and health  |
+*.azure.com | Generic - Allow all services for *.azure.com |
+*.cloudapp.azure.com    | Cloud apps |
+portal.azure.com  | Azure portal |
+datamarket.azure.com | Data market |
+resources.azure.com | Resource explorer |
+ods.opinsights.azure.com | Operation insights, monitoring agent, log analytics |
+*.core.windows.net | (generic storage access; would include: queues, blobs, tables, files) |
+*.blob.core.windows.net | Specific for blob storage |
+*.table.core.windows.net    | Specific for table storage |
+*.queue.core.windows.net    | Specific for queues (storage) |
+*.servicebus.windows.net    | Servicebus - Needed for e.g. RemoteApp |
+*.servicebus.net    | ServiceBus - needed for RemoteApp |
+*.cloudapp.net  | Cloud services |
+*.azurewebsites.net | Web sites |
+*.azure-api.net    | API management |
+*.database.windows.net  | SQL  |
+*.trafficmanager.net    | Traffic manager |
+*.azure-automation.net  | Azure automation - If using DSC pull configuration with on-prem, whitelist this |
+ods.systemcenteradvisor.com | Log anlytics | 
+login.microsoftonline.com   | Login for Azure AD / various applications |
+login.windows.net   | Login for various |
 
 
 ## Office 365 and other apps
