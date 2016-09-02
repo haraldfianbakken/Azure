@@ -11,8 +11,10 @@ Site    | Description
 --------|------------
 *.windowsazure.com  |   Allow for all services running under the windowsazure domain. E.g manage, remoteapp etc
 *.remoteapp.windwsazure.com | Azure Remote App
-*.azure.com | Generic
-*.core.windows.net | (generic storage access; includes: queues, blobs, tables)
+*.azure.com | Generic - Allow all services for *.azure.com
+*.cloudapp.azure.com    | Cloud apps
+*.portal.azure.com  | Azure portal
+*.core.windows.net | (generic storage access; would include: queues, blobs, tables, files)
 *.blob.core.windows.net | Specific for blob storage
 *.table.core.windows.net    | Specific for table storage
 *.queue.core.windows.net    | Specific for queues (storage)
@@ -28,6 +30,8 @@ ods.opinsights.azure.com | Operation insights, monitoring agent, log analytics
 ods.systemcenteradvisor.com | Log anlytics
 login.microsoftonline.com   | Login for Azure AD / various applications
 login.windows.net   | Login for various 
+datamarket.azure.com | Data market
+resources.azure.com | Resource explorer
 
 ## Office 365 and other apps
 
