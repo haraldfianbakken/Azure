@@ -9,8 +9,8 @@ Feel free to add more and add a pull request when you see URL's and services mis
 
 Site    | Description
 --------|------------
-*.windowsazure.com  |   Generic, all subservices
-*.remoteapp.windwsazure.com | Remoteapp
+*.windowsazure.com  |   Allow for all services running under the windowsazure domain. E.g manage, remoteapp etc
+*.remoteapp.windwsazure.com | Azure Remote App
 *.azure.com | Generic
 *.core.windows.net | (generic storage access; includes: queues, blobs, tables)
 *.blob.core.windows.net | Specific for blob storage
