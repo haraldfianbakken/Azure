@@ -8,12 +8,10 @@ Site    | Description
 --------|------------
 *.windowsazure.com  |   Generic, all subservices
 *.remoteapp.windwsazure.com | Remoteapp
-
 *.azure.com | Generic
 *.*.core.windows.net | (storage access, queuest, blobs, tables, can filter on *.blob.core.windows.net, *.table.core..., *.queue..., *.file...).
 *.servicebus.windows.net    | Servicebus - Needed for e.g. RemoteApp
 *.servicebus.net    | ServiceBus - needed for RemoteApp
-
 *.cloudapp.net  | Cloud services
 *.azurewebsites.net | Web sites
 *.database.windows.net  | SQL 
@@ -40,4 +38,5 @@ protection.office.com   | Security and complience
 sway.com    | sway
 portal.office.com   | generic for office, store etc.
 
-** For more about configuring O365, check https://support.office.com/en-gb/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&rs=en-GB&ad=GB **
+
+For more about configuring O365 check : https://support.office.com/en-gb/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&rs=en-GB&ad=GB 
