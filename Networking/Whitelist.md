@@ -3,7 +3,7 @@
 On-prem solutions and hybrid solutions working together with Azure can be a hazzle. In order to make network configurations easier / and allow for easier overview for what to configure
 I'm gathering a set of urls here that can be used to configuring firewalls / bypass local proxies. 
 
-Feel free to add more and add a pull request when new URL's are discovered.
+Feel free to add more and add a pull request when you see URL's and services missing.
 
 ## Azure services and urls
 
@@ -12,19 +12,20 @@ Site    | Description
 *.windowsazure.com  |   Generic, all subservices
 *.remoteapp.windwsazure.com | Remoteapp
 *.azure.com | Generic
-*.*.core.windows.net | (storage access, queuest, blobs, tables, can filter on *.blob.core.windows.net, *.table.core..., *.queue..., *.file...).
+*.core.windows.net | (generic storage access; includes: queues, blobs, tables)
+*.blob.core.windows.net | Specific for blob storage
+*.table.core.windows.net    | Specific for table storage
+*.queue.core.windows.net    | Specific for queues (storage)
 *.servicebus.windows.net    | Servicebus - Needed for e.g. RemoteApp
 *.servicebus.net    | ServiceBus - needed for RemoteApp
 *.cloudapp.net  | Cloud services
 *.azurewebsites.net | Web sites
+*.azure-api.net    | API management
 *.database.windows.net  | SQL 
 *.trafficmanager.net    | Traffic manager
 *.azure-automation.net  | Azure automation - If using DSC pull configuration with on-prem, whitelist this
-
 ods.opinsights.azure.com | Operation insights, monitoring agent, log analytics
 ods.systemcenteradvisor.com | Log anlytics
-
-
 login.microsoftonline.com   | Login for Azure AD / various applications
 login.windows.net   | Login for various 
 
