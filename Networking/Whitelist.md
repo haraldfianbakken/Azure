@@ -1,6 +1,9 @@
-# A list of URL's for simplifying configuration /networking towards Azure - for On-prem / Hybrid solutions 
+# On-Prem / Azure hybrid solutions - Url whitelisting and overview
 
-Useful for opening firewalls and allowing proxy bypasses. Feel free to add more and add a pull request when new URL's are discovered.
+On-prem solutions and hybrid solutions working together with Azure can be a hazzle. In order to make network configurations easier / and allow for easier overview for what to configure
+I'm gathering a set of urls here that can be used to configuring firewalls / bypass local proxies. 
+
+Feel free to add more and add a pull request when new URL's are discovered.
 
 ## Azure services and urls
 
