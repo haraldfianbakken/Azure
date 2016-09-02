@@ -9,11 +9,16 @@ Feel free to add more and add a pull request when you see URL's and services mis
 
 Site    | Description
 --------|------------
-*.windowsazure.com  |   Allow for all services running under the windowsazure domain. E.g manage, remoteapp etc
-*.remoteapp.windwsazure.com | Azure Remote App
+*.windowsazure.com  |   Allow for all services running under the windowsazure domain. 
+*.remoteapp.windowsazure.com | Azure Remote App
+marketplace.windowsazure.com | Azure marketplace
+status.windowsazure.com | Status and health 
 *.azure.com | Generic - Allow all services for *.azure.com
 *.cloudapp.azure.com    | Cloud apps
-*.portal.azure.com  | Azure portal
+portal.azure.com  | Azure portal
+datamarket.azure.com | Data market
+resources.azure.com | Resource explorer
+ods.opinsights.azure.com | Operation insights, monitoring agent, log analytics
 *.core.windows.net | (generic storage access; would include: queues, blobs, tables, files)
 *.blob.core.windows.net | Specific for blob storage
 *.table.core.windows.net    | Specific for table storage
@@ -26,12 +31,10 @@ Site    | Description
 *.database.windows.net  | SQL 
 *.trafficmanager.net    | Traffic manager
 *.azure-automation.net  | Azure automation - If using DSC pull configuration with on-prem, whitelist this
-ods.opinsights.azure.com | Operation insights, monitoring agent, log analytics
 ods.systemcenteradvisor.com | Log anlytics
 login.microsoftonline.com   | Login for Azure AD / various applications
 login.windows.net   | Login for various 
-datamarket.azure.com | Data market
-resources.azure.com | Resource explorer
+
 
 ## Office 365 and other apps
 
