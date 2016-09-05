@@ -25,6 +25,8 @@ ods.opinsights.azure.com | Operation insights, monitoring agent, log analytics |
 *.queue.core.windows.net    | Specific for queues (storage) |
 *.servicebus.windows.net    | Servicebus - Needed for e.g. custom solutions, RemoteApp ++|
 *.servicebus.net    | ServiceBus - needed for e.g. custom solutions, RemoteApp ++ |
+*.frontend.clouddatahub.net | On prem data gateway and more | 
+*.analysis.windows.net | | 
 *.cloudapp.net  | Cloud services |
 *.azurewebsites.net | Web sites |
 *.azure-api.net    | API management |
